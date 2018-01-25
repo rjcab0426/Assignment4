@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Marksheet</title>
+        <script type="text/javascript" src="./scripts/js/marksheet.js"></script>
+    </head>
+
+    <body>
+        <h1>Marksheet</h1>
+
+        <form>
+            <label>Name</label>
+            <input type="text" id="name"/>
+            <span id="nameErr" style="color:red;"></span>
+
+            <br />
+            <br />
+
+            <label>Class / Semester</label>
+            <input type="text" id="cs"/>
+            <span id="csErr" style="color:red;"></span>
+
+            <br />
+            <br />
+                
+            <br />
+            <br />
+          
+            <label>English</label>
+            <input type="text" id="english"/>
+            <span id="englishErr" style="color:red;"></span>
+
+            <br />
+            <br />
+
+            <label>Math</label>
+            <input type="text" id="math"/>
+            <span id="mathErr" style="color:red;"></span>
+
+            <br />
+            <br />
+
+            <label>Science</label>
+            <input type="text" id="science"/>
+            <span id="scienceErr" style="color:red;"></span>
+
+            <br />
+            <br />
+
+            <label>History</label>
+            <input type="text" id="history"/>
+            <span id="historyErr" style="color:red;"></span>
+
+            <br />
+            <br />
+
+            <label>Computer</label>
+            <input type="text" id="computer"/>
+            <span id="computerErr" style="color:red;"></span>
+
+            <br />
+            <br />
+
+            <button type="button" onClick="calResults();validate()">Calculate Results</button>
+
+            <br />
+            <br />
+            
+            <span id="add" style="color:black; font-size:15pt"></span>
+            
+            <br />
+            <br />
+            
+            <span id="percentage" style="color:blue; font-size:15pt" number=></span>
+
+            <br />
+            <br />
+
+            <span id="grade" style="color:green; font-size:15pt"></span>
+
+            <br />
+            <br />
+            
+                      
+        </form>
+    </body>
+</html>

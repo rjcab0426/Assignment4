@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang = "en">
+    <head>
+        <meta charset = "utf-8">
+        <title>Registration</title>
+        <script type = "text/javascript" src = "./scripts/js/registrationform.js"></script>
+    </head>
+
+    <body>
+        <h1>Registration Form</h1>
+
+        <form>
+            <label>First Name</label>
+            <input type = "text" id = "firstName" onkeyup="validate()"/>
+            <span id = "firstNameErr" style = "color:red"></span>
+
+            <br />
+            <br />
+
+            <label>Last Name</label>
+            <input type = "text" id = "lastName"/>
+            
+            <br />
+            <br />
+
+            <label>Email</label>
+            <input type = "text" id = "email"/>
+            <span id = "emailErr" style = "color:red"/></span>
+
+            <br />
+            <br />
+
+            <label>Password</label>
+            <input type = "password" id = "password"/>
+            <span id = "passwordErr" style = "color:red"/></span>
+
+            <br />
+            <br />
+
+            <label>Confirm Password</label>
+            <input type = "password" id = "confirmPassword"/>
+            <span id = "confirmPasswordErr" style = "color:red"/></span>
+
+            <br />
+            <br />
+            
+            <button type = "button" onClick = "validate()">Register</button>
+        </form>
+
+
+    </body>
+
+
+</html>
